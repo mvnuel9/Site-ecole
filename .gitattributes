@@ -1,0 +1,11 @@
+# Forcer LF pour tous les fichiers texte
+* text=auto eol=lf
+
+# Traiter les fichiers SVG comme des fichiers binaires
+*.svg binary
+
+# Forcer CRLF pour les fichiers batch (.bat)
+*.bat text eol=crlf
+
+# Ignorer les fins de ligne pour les fichiers CSS
+*.css -text
